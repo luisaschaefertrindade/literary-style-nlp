@@ -24,7 +24,7 @@ Develop a paraphrasis tool to generate texts in the style of specific authors, s
 The project is structured in five main steps: data collection, preprocessing, stylometry analysis, modeling, and style transfer.
 
 ### Data collection
-Extracted works from Domínio Público, Wikisource, and other open literary repositories from Machado de Assis, Lima Barreto and Graciliano Ramos. 
+Extracted works from Domínio Público, Wikisource, and other open literary repositories from Machado de Assis, Lima Barreto, Graciliano Ramos, Aluísio Azevedo, and José de Alencar. 
 
 ### Preprocessing
 Cleaned and segmented texts into chunks. Removed metadata, normalized punctuation and spacing.
@@ -47,3 +47,8 @@ Transformer-based model shows improved performance and author-specific confusion
 Stylometric profiles reveal stricking differences in sentence structure and lexical richness.
 
 _(Full metrics and visualizations coming soon)_
+
+## Author
+**Luísa Schaefer Trindade**
+Computational Linguist | NLP Researcher
+GitHub: luisaschaefertrindade | LinkedIn: 
