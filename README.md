@@ -23,20 +23,20 @@ Develop a paraphrasis tool to generate texts in the style of specific authors, s
 ## Methodology
 The project is structured in five main steps: data collection, preprocessing, stylometry analysis, modeling, and style transfer.
 
-### Data collection
-Extracted works from Domínio Público, Wikisource, and other open literary repositories from Machado de Assis, Lima Barreto, Graciliano Ramos, Aluísio Azevedo, and José de Alencar. 
+### 1. Data collection
+Extracted works from Domínio Público, Wikisource, and other open literary repositories from Machado de Assis and Graciliano Ramos. 
 
-### Preprocessing
+### 2. Preprocessing
 Cleaned and segmented texts into chunks. Removed metadata, normalized punctuation and spacing.
 
-### Stylometry analysis
+### 3. Stylometry analysis
 Sentence length distributions; type/token ratio for lexical richness; POS and dependency pattern frequencies; use of passive voice, punctuation, and conjunctions.
 
-### Modeling
+### 4. Modeling
 - Baseline: TF-IDF + logistic regression;
 - Advanced: fine-tuned BERTimbau for multiclass classification.
 
-### Style transfer
+### 5. Style transfer
 - Fine-tuning GPT-2 using selected author corpus;
 - Prompt-based paraphrasing into literary style;
 - Evaluation (manual + stylometric).
