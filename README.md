@@ -42,7 +42,27 @@ Sentence length distributions; type/token ratio for lexical richness; POS and de
 - Evaluation (manual + stylometric).
 
 ## Results (WIP)
-Baseline model achieves ~70% accuracy in classification.
+Baseline model achieves ~80% accuracy in classification. The following classification report shows its reasonable performance:
+
+                  precision    recall  f1-score   support
+
+Graciliano Ramos       0.78      0.74      0.76      1487
+Machado de Assis       0.77      0.81      0.79      1596
+
+        accuracy                           0.77      3083
+       macro avg       0.78      0.77      0.77      3083
+    weighted avg       0.78      0.77      0.77      3083
+
+The confusion matrix further illustrates this:
+<img width="548" height="455" alt="image" src="https://github.com/user-attachments/assets/a1e4b907-b7e3-47cc-8932-23256d58a806" />
+
+The feature set investigated in this project captures important stylistic differences. However, the ~20% error rate can indicate an overlap or shared vocabulary, as they are both 20th-century Brazilian authors.
+
+### Sentence length
+<img width="989" height="490" alt="image" src="https://github.com/user-attachments/assets/d37cd634-8675-4853-824e-11b1039ef8ea" />
+
+Machado de Assis tends to use longer sentences on average, favoring complex sentence structures. Graciliano Ramos tends to be more concise and direct.
+
 Transformer-based model shows improved performance and author-specific confusion patterns.
 Stylometric profiles reveal stricking differences in sentence structure and lexical richness.
 
