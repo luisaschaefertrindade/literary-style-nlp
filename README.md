@@ -9,15 +9,16 @@ Train models to predict the author of a given excerpt using machine learning and
 ### Style analysis
 Extract and compare stylistic features such as sentence length, lexical richness, punctuation, syntactic patterns.
 
-### Style transfer (experimental)
-Develop a paraphrasis tool to generate texts in the style of specific authors, starting with GPT-2 fine-tuned on Machado de Assis.
+### Multiclass classification
+Fine-tune a model to classify texts according to the selected authors.
 
 ## Tools
 - Python (3.10+)
 - scikit-learn, pandas, numpy
 - spaCy (pt_core_news_sm)
-- matplotlib, seaborn
-- Streamlit (for demo)
+- NLTK
+- matplotlib
+- HuggingFace Transformers
 
 ## Methodology
 The project is structured in five main steps: data collection, preprocessing, stylometry analysis, modeling, and multiclass classification.
